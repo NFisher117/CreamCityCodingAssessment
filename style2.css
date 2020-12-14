@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .grid div:nth-child(even) {
+      background-color: red;
+  }
+  .grid div:nth-child(odd) {
+    background-color:gray;
+  }
+     nav img{
+    float:left;
+    width: 200;
+    height:100px;
+    margin-left:10px;
+  }
+  ul{
+    list-style-type: none;
+    float: left;
+    margin-top:10px;
+  }
+  ul li a:hover{
+    color: black;
+    transition: 1s ease;
+  }
+  ul li{
+    display: inline-block;
+  }
+  ul li a{
+    text-decoration: none;
+    color:red;
+    padding: 5px 20px;
+    text-transform: uppercase;
+  table {
+     width: 400px;
+ }
+ th {
+     text-align: center;
+ }
+table, th, td {
+    border: 1px solid #000;
+}

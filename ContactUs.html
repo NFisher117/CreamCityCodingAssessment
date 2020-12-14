@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Contact</title>
+    <style>
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: black;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: blue;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+</head>
+<header>
+    <div id="main">
+        <nav>
+            <img src="maskworldbluegreen.jpg">
+        </nav>
+    </div>
+
+    <ul>
+    <font size="4"</font>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="WhattoDo.html">What To Do</a></li>
+        <li><a href="Resources.html">Resources</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+    </ul>
+    </div>
+    <body>
+      <h1>We'd Love to Hear from YOU.</h1> </font>
+  <h2>Contact Form</h2>
+   <div class="container">
+    <form action="/action_page.php">
+        <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="australia">Australia</option>
+          <option value="china">China</option>
+          <option value="africa">Africa</option>
+          <option value="france">France</option>
+          <option value="germany">Germany</option>
+          <option value="italy">Italy</option>
+          <option value="japan">Japan</option>
+          <option value="korea">Korea</option>
+          <option value="mexico">Mexico</option>
+          <option value="russia">Russia</option>
+          <option value="the united kingdom">The United Kingdom</option>
+        </select>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+    </div>
+    </body>
+    </html>
+     
